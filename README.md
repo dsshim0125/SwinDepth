@@ -63,3 +63,9 @@ The following example command evaluates best weights:
 ```shell
 python evaluate_depth.py --data_path=/YOUR/DATA/PATH --load_weights_folder ./checkpoints/ht_dcmnet/models/best/
 ```
+
+## Reference
+
+1. Monodepth2 - https://github.com/nianticlabs/monodepth2
+2. timm - https://github.com/rwightman/pytorch-image-models
+3. mmsegmentation - https://github.com/open-mmlab/mmsegmentation
