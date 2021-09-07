@@ -1,5 +1,5 @@
 # Unsupervised Depth Estimation Using Monocular Sequences via Hierarchical Transformer and Densely Cascaded Network
-### AAAI 22 Submission
+### This is the PyTorch implementation of the paraper submitted in AAAI 22.
 
 ## Setup
 
