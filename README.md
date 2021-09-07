@@ -35,6 +35,16 @@ wget -i splits/kitti_archives_to_download.txt -P /YOUR/DATA/PATH/
 find /YOUR/DATA/PATH/ -name '*.png' | parallel 'convert -quality 92 -sampling-factor 2x2,1x1,1x1 {.}.png {.}.jpg && rm {}'
 ```
 
+```
+datasets
+  |----kitti 
+         |----2011_09_26
+               |----2011_09_06_drive_0001_sync              
+               |-----.......  
+         |----2011_09_28        
+         |----.........        
+```
+
 ## Training
 
 ```shell
