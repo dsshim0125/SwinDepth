@@ -2,7 +2,7 @@
 
 This is the PyTorch implementation of the paraper submitted in AAAI 22.
 
-We provide pre-trained weights and an evaluation code for simple visualization of depth estimation  results on KITTI dataset.
+We provide pre-trained weights and evaluation codes for a simple visualization of depth estimation  results on KITTI dataset.
 
 ## Setup
 
