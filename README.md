@@ -45,11 +45,10 @@ python train.py --data_path=/YOUR/DATA/PATH --log_dir=./checkpoints --model_name
 
 To prepare the ground truth depth maps run:
 ```shell
-python export_gt_depth.py --data_path kitti_data --split eigen
+python export_gt_depth.py --data_path /YOUR/DATA/PATH --split eigen
 ```
-...assuming that you have placed the KITTI dataset in the default location of `./kitti_data/`.
 
-The following example command evaluates the epoch 19 weights of a model named `mono_model`:
+The following example command evaluates best weights:
 ```shell
-python evaluate_depth.py --load_weights_folder ~/tmp/mono_model/models/weights_19/ --eval_mono
+python evaluate_depth.py --data_path=/YOUR/DATA/PATH --load_weights_folder ./checkpoints/ht_dcmnet/models/best/
 ```
