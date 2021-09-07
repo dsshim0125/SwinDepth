@@ -23,3 +23,14 @@ python test_simple.py --image_path=./test_images/
 ```
 
 You can check depth estimation results with other images from KITTI or your own datasets by adding test images on the folder named "test_images".
+
+## KITTI Dataset
+
+You can download the entire [raw KITTI dataset](http://www.cvlibs.net/datasets/kitti/raw_data.php) by running:
+```shell
+wget -i splits/kitti_archives_to_download.txt -P /YOUR/DATA/PATH/
+```
+
+```shell
+find /YOUR/DATA/PATH/ -name '*.png' | parallel 'convert -quality 92 -sampling-factor 2x2,1x1,1x1 {.}.png {.}.jpg && rm {}'
+```
