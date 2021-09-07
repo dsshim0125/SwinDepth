@@ -48,9 +48,14 @@ find /YOUR/DATA/PATH/ -name '*.png' | parallel 'convert -quality 92 -sampling-fa
 
 ## Training
 
+The depth estimation network is trained by running:
 ```shell
 python train.py --data_path=/YOUR/DATA/PATH --log_dir=./checkpoints --model_name=ht_dcmnet --num_epochs=40 --batch_size=12
 ```
+
+Unfortunately, the code above cannot produce same weights shown in the paper as we cannot provide encoder weights pre-trained on ImageNet-1k due to the memory limitation in submitting supplementary materials :(.
+
+We'll provide ImageNet-1k pre-trained weights and publically open the source code after final submission.
 
 ## Evaluation
 
