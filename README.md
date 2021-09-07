@@ -1,5 +1,8 @@
 # Unsupervised Depth Estimation Using Monocular Sequences via Hierarchical Transformer and Densely Cascaded Network
-### This is the PyTorch implementation of the paraper submitted in AAAI 22.
+
+This is the PyTorch implementation of the paraper submitted in AAAI 22.
+
+We provide a pre-trained weights and an evaluation code for simple visualization of depth estimation  results on KITTI dataset.
 
 ## Setup
 
