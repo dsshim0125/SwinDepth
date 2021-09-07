@@ -55,7 +55,7 @@ python train.py --data_path=/YOUR/DATA/PATH --log_dir=./checkpoints --model_name
 
 Unfortunately, the code above cannot produce same weights shown in the paper as we cannot provide encoder weights pre-trained on ImageNet-1k due to the memory limitation in submitting supplementary materials :(.
 
-We'll provide ImageNet-1k pre-trained weights and publically open the source code after final submission.
+We'll provide ImageNet-1k pre-trained encoder weights and also publically open the source code after final submission.
 
 ## Evaluation
 
