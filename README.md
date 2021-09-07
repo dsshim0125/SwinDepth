@@ -13,3 +13,13 @@ conda activate ht_dcmnet
 conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia
 ```
 Our experiments has been done with PyTorch 1.9.0, CUDA 11.2, Python 3.8.5 and Ubuntu 18.04.
+
+## Simple Prediction
+
+You can simply visualize the depth estimation results on some images from KITTI with:
+
+```shell
+python test_simple.py --image_path=./test_images/
+```
+
+You can check depth estimation results with other images from KITTI or your own datasets by adding test images on the folder named "test_images".
