@@ -23,7 +23,7 @@ You can simply visualize the depth estimation results on some images from KITTI 
 python test_simple.py --image_path=./test_images/
 ```
 
-You can check depth estimation results with other images from KITTI or your own datasets by adding test images on the folder named "test_images".
+You can check depth estimation results with other images from KITTI or your own datasets by adding test images on the folder named "test_images". You can run the code without GPU by using --no_cuda flag.
 
 ## KITTI Dataset
 
