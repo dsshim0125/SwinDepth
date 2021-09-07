@@ -32,10 +32,13 @@ You can download the entire [raw KITTI dataset](http://www.cvlibs.net/datasets/k
 wget -i splits/kitti_archives_to_download.txt -P /YOUR/DATA/PATH/
 ```
 
+KITTI images are converted from `.png` to `.jpg` extension with this command for fast load times during training:
+
 ```shell
 find /YOUR/DATA/PATH/ -name '*.png' | parallel 'convert -quality 92 -sampling-factor 2x2,1x1,1x1 {.}.png {.}.jpg && rm {}'
 ```
 
+The commands above results in the data_path:
 ```
 /YOUR/DATA/PATH
   |----2011_09_26
