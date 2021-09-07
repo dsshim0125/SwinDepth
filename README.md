@@ -36,13 +36,13 @@ find /YOUR/DATA/PATH/ -name '*.png' | parallel 'convert -quality 92 -sampling-fa
 ```
 
 ```
-datasets
-  |----kitti 
-         |----2011_09_26
-               |----2011_09_06_drive_0001_sync              
-               |-----.......  
-         |----2011_09_28        
-         |----.........        
+/YOUR/DATA/PATH
+  |----2011_09_26
+      |----2011_09_26_drive_0001_sync  
+      |-----.......  
+      
+  |----2011_09_28        
+  |----.........        
 ```
 
 ## Training
