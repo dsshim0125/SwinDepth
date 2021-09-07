@@ -54,12 +54,14 @@ python train.py --data_path=/YOUR/DATA/PATH --log_dir=./checkpoints --model_name
 
 ## Evaluation
 
-To prepare the ground truth depth maps run:
+Before evaluation, you should prepare ground truth depth maps by running:
+
 ```shell
 python export_gt_depth.py --data_path /YOUR/DATA/PATH --split eigen
 ```
 
 The following example command evaluates best weights:
+
 ```shell
 python evaluate_depth.py --data_path=/YOUR/DATA/PATH --load_weights_folder ./checkpoints/ht_dcmnet/models/best/
 ```
