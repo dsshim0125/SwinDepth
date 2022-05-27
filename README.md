@@ -1,4 +1,4 @@
-# SwinDepth: Unsupervised Depth Estimation Using Monocular Sequences via Swin Transformer and Densely Cascaded Network
+# SwinDepth
 
 This is the PyTorch implementation of the paper submitted in 3DV 2022.
 
