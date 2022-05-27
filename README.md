@@ -1,6 +1,6 @@
-# Unsupervised Depth Estimation Using Monocular Sequences via Hierarchical Transformer and Densely Cascaded Network
+# SwinDepth: Unsupervised Depth Estimation Using Monocular Sequences via Swin Transformer and Densely Cascaded Network
 
-This is the PyTorch implementation of the paper submitted in AAAI 22.
+This is the PyTorch implementation of the paper submitted in 3DV 2022.
 
 We provide pre-trained weights and evaluation codes for a simple visualization of depth estimation  results on KITTI dataset.
 
