@@ -77,7 +77,7 @@ python export_gt_depth.py --data_path /YOUR/DATA/PATH --split eigen
 The following example command evaluates best weights:
 
 ```shell
-python evaluate_depth.py --data_path=/YOUR/DATA/PATH --load_weights_folder ./checkpoints/ht_dcmnet/models/best/
+python evaluate_depth.py --data_path=/YOUR/DATA/PATH --load_weights_folder ./checkpoints/best/
 ```
 
 ## Reference
