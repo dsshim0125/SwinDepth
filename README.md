@@ -4,6 +4,7 @@ This is the PyTorch implementation of the paper "SwinDepth: Unsupervised Depth E
 
 We provide pre-trained weights and evaluation codes for a simple visualization of depth estimation  results on KITTI dataset.
 
+Download the pre-trained weights from [here](https://drive.google.com/drive/folders/1I3E3qLFoYeDw8pmbFbr4TNpElnAaxdtO?usp=sharing) and place them in "./checkpoints/best" folder
 ## Setup
 
 
