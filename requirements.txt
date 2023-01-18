@@ -1,0 +1,7 @@
+numpy==1.20.2
+matplotlib==3.3
+mmcv==1.2.0
+opencv-contrib-python==4.5.2.54
+scikit_image==0.17.2
+tensorboard==2.5.0
+tensorboardX==2.4
