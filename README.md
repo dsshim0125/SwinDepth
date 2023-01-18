@@ -1,6 +1,6 @@
 # SwinDepth
 
-This is the PyTorch implementation of the paper "SwinDepth: Unsupervised Depth Estimation using Monocular Sequences via Swin Transformer and Densely Cascaded Network" (ICRA 2023).
+This is the PyTorch implementation of the paper "SwinDepth: Unsupervised Depth Estimation using Monocular Sequences via Swin Transformer and Densely Cascaded Network" (ICRA 2023). [[paper](https://arxiv.org/abs/2301.06715)]
 
 We provide pre-trained weights and evaluation codes for a simple visualization of depth estimation  results on KITTI dataset.
 
