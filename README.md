@@ -63,10 +63,6 @@ The depth estimation network is trained by running:
 python train.py --data_path=/YOUR/DATA/PATH --log_dir=./checkpoints --model_name=ht_dcmnet --num_epochs=40 --batch_size=12
 ```
 
-Unfortunately, the code above cannot produce same results shown in the paper as we cannot provide encoder weights pre-trained on ImageNet-1k due to the memory limitation in submitting supplementary materials :(
-
-We'll provide ImageNet-1k pre-trained encoder weights and also publically open the source code after final submission.
-
 ## Evaluation
 
 Before evaluation, you should prepare ground truth depth maps by running:
