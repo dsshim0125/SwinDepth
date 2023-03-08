@@ -58,6 +58,11 @@ The commands above results in the data_path:
 
 ## Training
 
+For training, you have to pre-train Swin Transformer encoder in ImageNet-1k dataset.
+
+You can either simply download ImageNet-pretrained encoder weight [here](https://drive.google.com/drive/folders/1I3E3qLFoYeDw8pmbFbr4TNpElnAaxdtO?usp=sharing) named '104checkpoint.pth' or train Swin Transformer yourself with PyTorch offical [code](https://github.com/pytorch/examples/tree/main/imagenet).
+Then, you place the pretrained weight in ./checkpoints/imagenet folder.
+
 The depth estimation network is trained by running:
 ```shell
 python train.py --data_path=/YOUR/DATA/PATH --log_dir=./checkpoints --model_name=ht_dcmnet --num_epochs=40 --batch_size=12
